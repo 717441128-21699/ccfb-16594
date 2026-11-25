@@ -1,0 +1,11 @@
+ball,date,camera_view,video_file,radar_club_head_speed_mps,radar_face_angle_deg,radar_path_angle_deg,observed_direction_deg,app_speed_mps,app_face_angle_deg,app_path_angle_deg,direction_correct,notes
+1,,side,,,,,,,,,
+2,,side,,,,,,,,,
+3,,side,,,,,,,,,
+4,,side,,,,,,,,,
+5,,side,,,,,,,,,
+6,,face-on,,,,,,,,,
+7,,face-on,,,,,,,,,
+8,,face-on,,,,,,,,,
+9,,face-on,,,,,,,,,
+10,,face-on,,,,,,,,,

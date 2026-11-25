@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "b01-straight-side",
+    "title": "基准直球 · 侧对机位",
+    "file": "samples/b01-straight-side.mp4",
+    "cameraView": "side",
+    "fault": "ideal",
+    "description": "方正杆面与中性路径，用于验证尺度和速度基线。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46,
+      "faceAngleDeg": 0.4,
+      "pathAngleDeg": 0.2,
+      "directionDeg": 0.5,
+      "shot": "straight",
+      "impactFrame": 840,
+      "fault": "ideal",
+      "radarClubHeadSpeedMps": 46.184,
+      "radarFaceAngleDeg": 0.6000000000000001
+    }
+  },
+  {
+    "id": "b01-straight-face-on",
+    "title": "基准直球 · 正对机位",
+    "file": "samples/b01-straight-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "ideal",
+    "description": "方正杆面与中性路径，用于验证尺度和速度基线。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46,
+      "faceAngleDeg": 0.4,
+      "pathAngleDeg": 0.2,
+      "directionDeg": 0.5,
+      "shot": "straight",
+      "impactFrame": 840,
+      "fault": "ideal",
+      "radarClubHeadSpeedMps": 46.184,
+      "radarFaceAngleDeg": 0.6000000000000001
+    }
+  },
+  {
+    "id": "b02-draw-side",
+    "title": "标准小左曲 · 侧对机位",
+    "file": "samples/b02-draw-side.mp4",
+    "cameraView": "side",
+    "fault": "inside-out",
+    "description": "由内向外 4.4°，杆面相对路径关闭，弹道先略右后左转。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 47.2,
+      "faceAngleDeg": 1.1,
+      "pathAngleDeg": 4.4,
+      "directionDeg": -4.8,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "inside-out",
+      "radarClubHeadSpeedMps": 47.3888,
+      "radarFaceAngleDeg": 1.3
+    }
+  },
+  {
+    "id": "b02-draw-face-on",
+    "title": "标准小左曲 · 正对机位",
+    "file": "samples/b02-draw-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "inside-out",
+    "description": "由内向外 4.4°，杆面相对路径关闭，弹道先略右后左转。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 47.2,
+      "faceAngleDeg": 1.1,
+      "pathAngleDeg": 4.4,
+      "directionDeg": -4.8,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "inside-out",
+      "radarClubHeadSpeedMps": 47.3888,
+      "radarFaceAngleDeg": 1.3
+    }
+  },
+  {
+    "id": "b03-fade-side",
+    "title": "标准小右曲 · 侧对机位",
+    "file": "samples/b03-fade-side.mp4",
+    "cameraView": "side",
+    "fault": "over-the-top",
+    "description": "轻微由外向内，杆面相对路径打开，弹道先略左后右转。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46.8,
+      "faceAngleDeg": 1.8,
+      "pathAngleDeg": -2.8,
+      "directionDeg": 5.4,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "over-the-top",
+      "radarClubHeadSpeedMps": 46.987199999999994,
+      "radarFaceAngleDeg": 2
+    }
+  },
+  {
+    "id": "b03-fade-face-on",
+    "title": "标准小右曲 · 正对机位",
+    "file": "samples/b03-fade-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "over-the-top",
+    "description": "轻微由外向内，杆面相对路径打开，弹道先略左后右转。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46.8,
+      "faceAngleDeg": 1.8,
+      "pathAngleDeg": -2.8,
+      "directionDeg": 5.4,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "over-the-top",
+      "radarClubHeadSpeedMps": 46.987199999999994,
+      "radarFaceAngleDeg": 2
+    }
+  },
+  {
+    "id": "b04-slice-side",
+    "title": "严重右曲 / slice · 侧对机位",
+    "file": "samples/b04-slice-side.mp4",
+    "cameraView": "side",
+    "fault": "slice",
+    "description": "over-the-top 且杆面明显打开，典型右曲毛病。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 45.1,
+      "faceAngleDeg": 5.6,
+      "pathAngleDeg": -6.2,
+      "directionDeg": 18.5,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "slice",
+      "radarClubHeadSpeedMps": 45.2804,
+      "radarFaceAngleDeg": 5.8
+    }
+  },
+  {
+    "id": "b04-slice-face-on",
+    "title": "严重右曲 / slice · 正对机位",
+    "file": "samples/b04-slice-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "slice",
+    "description": "over-the-top 且杆面明显打开，典型右曲毛病。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 45.1,
+      "faceAngleDeg": 5.6,
+      "pathAngleDeg": -6.2,
+      "directionDeg": 18.5,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "slice",
+      "radarClubHeadSpeedMps": 45.2804,
+      "radarFaceAngleDeg": 5.8
+    }
+  },
+  {
+    "id": "b05-hook-side",
+    "title": "严重左曲 / hook · 侧对机位",
+    "file": "samples/b05-hook-side.mp4",
+    "cameraView": "side",
+    "fault": "hook",
+    "description": "深度由内向外且杆面关闭，典型左曲毛病。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 47.8,
+      "faceAngleDeg": -3.8,
+      "pathAngleDeg": 6.4,
+      "directionDeg": -16.5,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "hook",
+      "radarClubHeadSpeedMps": 47.9912,
+      "radarFaceAngleDeg": -3.5999999999999996
+    }
+  },
+  {
+    "id": "b05-hook-face-on",
+    "title": "严重左曲 / hook · 正对机位",
+    "file": "samples/b05-hook-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "hook",
+    "description": "深度由内向外且杆面关闭，典型左曲毛病。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 47.8,
+      "faceAngleDeg": -3.8,
+      "pathAngleDeg": 6.4,
+      "directionDeg": -16.5,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "hook",
+      "radarClubHeadSpeedMps": 47.9912,
+      "radarFaceAngleDeg": -3.5999999999999996
+    }
+  },
+  {
+    "id": "b06-push-side",
+    "title": "直推右 · 侧对机位",
+    "file": "samples/b06-push-side.mp4",
+    "cameraView": "side",
+    "fault": "push",
+    "description": "路径和杆面都指向目标右侧，但二者接近，弯曲小。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 45.6,
+      "faceAngleDeg": 3.8,
+      "pathAngleDeg": 3.4,
+      "directionDeg": 4.1,
+      "shot": "push",
+      "impactFrame": 840,
+      "fault": "push",
+      "radarClubHeadSpeedMps": 45.7824,
+      "radarFaceAngleDeg": 4
+    }
+  },
+  {
+    "id": "b06-push-face-on",
+    "title": "直推右 · 正对机位",
+    "file": "samples/b06-push-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "push",
+    "description": "路径和杆面都指向目标右侧，但二者接近，弯曲小。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 45.6,
+      "faceAngleDeg": 3.8,
+      "pathAngleDeg": 3.4,
+      "directionDeg": 4.1,
+      "shot": "push",
+      "impactFrame": 840,
+      "fault": "push",
+      "radarClubHeadSpeedMps": 45.7824,
+      "radarFaceAngleDeg": 4
+    }
+  },
+  {
+    "id": "b07-pull-side",
+    "title": "直拉左 · 侧对机位",
+    "file": "samples/b07-pull-side.mp4",
+    "cameraView": "side",
+    "fault": "pull",
+    "description": "路径和杆面都指向目标左侧，但二者接近，弯曲小。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 44.9,
+      "faceAngleDeg": -3.7,
+      "pathAngleDeg": -3.3,
+      "directionDeg": -4,
+      "shot": "pull",
+      "impactFrame": 840,
+      "fault": "pull",
+      "radarClubHeadSpeedMps": 45.0796,
+      "radarFaceAngleDeg": -3.5
+    }
+  },
+  {
+    "id": "b07-pull-face-on",
+    "title": "直拉左 · 正对机位",
+    "file": "samples/b07-pull-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "pull",
+    "description": "路径和杆面都指向目标左侧，但二者接近，弯曲小。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 44.9,
+      "faceAngleDeg": -3.7,
+      "pathAngleDeg": -3.3,
+      "directionDeg": -4,
+      "shot": "pull",
+      "impactFrame": 840,
+      "fault": "pull",
+      "radarClubHeadSpeedMps": 45.0796,
+      "radarFaceAngleDeg": -3.5
+    }
+  },
+  {
+    "id": "b08-over-top-side",
+    "title": "over-the-top 陡下杆 · 侧对机位",
+    "file": "samples/b08-over-top-side.mp4",
+    "cameraView": "side",
+    "fault": "over-the-top",
+    "description": "陡直、由外向内的下杆平面，容易造成右曲。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46.4,
+      "faceAngleDeg": 0.8,
+      "pathAngleDeg": -5.4,
+      "directionDeg": 6.8,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "over-the-top",
+      "radarClubHeadSpeedMps": 46.5856,
+      "radarFaceAngleDeg": 1
+    }
+  },
+  {
+    "id": "b08-over-top-face-on",
+    "title": "over-the-top 陡下杆 · 正对机位",
+    "file": "samples/b08-over-top-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "over-the-top",
+    "description": "陡直、由外向内的下杆平面，容易造成右曲。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 46.4,
+      "faceAngleDeg": 0.8,
+      "pathAngleDeg": -5.4,
+      "directionDeg": 6.8,
+      "shot": "fade",
+      "impactFrame": 840,
+      "fault": "over-the-top",
+      "radarClubHeadSpeedMps": 46.5856,
+      "radarFaceAngleDeg": 1
+    }
+  },
+  {
+    "id": "b09-early-release-side",
+    "title": "提前释放 / cast · 侧对机位",
+    "file": "samples/b09-early-release-side.mp4",
+    "cameraView": "side",
+    "fault": "early-release",
+    "description": "手腕提前释放，击球角度变陡，杆头速度峰值略低。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 39.7,
+      "faceAngleDeg": 2.4,
+      "pathAngleDeg": 0.9,
+      "directionDeg": 3.2,
+      "shot": "push-fade",
+      "impactFrame": 840,
+      "fault": "early-release",
+      "radarClubHeadSpeedMps": 39.8588,
+      "radarFaceAngleDeg": 2.6
+    }
+  },
+  {
+    "id": "b09-early-release-face-on",
+    "title": "提前释放 / cast · 正对机位",
+    "file": "samples/b09-early-release-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "early-release",
+    "description": "手腕提前释放，击球角度变陡，杆头速度峰值略低。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 39.7,
+      "faceAngleDeg": 2.4,
+      "pathAngleDeg": 0.9,
+      "directionDeg": 3.2,
+      "shot": "push-fade",
+      "impactFrame": 840,
+      "fault": "early-release",
+      "radarClubHeadSpeedMps": 39.8588,
+      "radarFaceAngleDeg": 2.6
+    }
+  },
+  {
+    "id": "b10-shallow-side",
+    "title": "过平挥杆平面 · 侧对机位",
+    "file": "samples/b10-shallow-side.mp4",
+    "cameraView": "side",
+    "fault": "shallow-plane",
+    "description": "平面过浅且明显由内向外，伴随关闭杆面。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "side",
+      "ballA": {
+        "x": 0.5046875,
+        "y": 0.6944444444444444
+      },
+      "ballB": {
+        "x": 0.5265625,
+        "y": 0.6944444444444444
+      },
+      "clubGrip": {
+        "x": 0.075,
+        "y": 0.11944444444444445
+      },
+      "clubHead": {
+        "x": 0.509375,
+        "y": 0.7
+      },
+      "targetFrom": {
+        "x": 0.128125,
+        "y": 0.6944444444444444
+      },
+      "targetTo": {
+        "x": 0.9140625,
+        "y": 0.6944444444444444
+      },
+      "insidePoint": {
+        "x": 0.515625,
+        "y": 0.9055555555555556
+      },
+      "depthCompression": 0.82
+    },
+    "truth": {
+      "clubHeadSpeedMps": 48.3,
+      "faceAngleDeg": -1.6,
+      "pathAngleDeg": 5.8,
+      "directionDeg": -7.5,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "shallow-plane",
+      "radarClubHeadSpeedMps": 48.493199999999995,
+      "radarFaceAngleDeg": -1.4000000000000001
+    }
+  },
+  {
+    "id": "b10-shallow-face-on",
+    "title": "过平挥杆平面 · 正对机位",
+    "file": "samples/b10-shallow-face-on.mp4",
+    "cameraView": "face-on",
+    "fault": "shallow-plane",
+    "description": "平面过浅且明显由内向外，伴随关闭杆面。",
+    "durationSec": 5,
+    "fps": 240,
+    "width": 640,
+    "height": 360,
+    "calibration": {
+      "handedness": "right",
+      "fps": 240,
+      "exposureSec": 0.000625,
+      "ballDiameterMm": 42.67,
+      "clubLengthMm": 1067,
+      "cameraView": "face-on",
+      "ballA": {
+        "x": 0.4890625,
+        "y": 0.7166666666666667
+      },
+      "ballB": {
+        "x": 0.5109375,
+        "y": 0.7
+      },
+      "clubGrip": {
+        "x": 0.8046875,
+        "y": 0.1527777777777778
+      },
+      "clubHead": {
+        "x": 0.50625,
+        "y": 0.7055555555555556
+      },
+      "targetFrom": {
+        "x": 0.390625,
+        "y": 0.7944444444444444
+      },
+      "targetTo": {
+        "x": 0.734375,
+        "y": 0.4388888888888889
+      },
+      "insidePoint": {
+        "x": 0.278125,
+        "y": 0.6277777777777778
+      },
+      "depthCompression": 0.92
+    },
+    "truth": {
+      "clubHeadSpeedMps": 48.3,
+      "faceAngleDeg": -1.6,
+      "pathAngleDeg": 5.8,
+      "directionDeg": -7.5,
+      "shot": "draw",
+      "impactFrame": 840,
+      "fault": "shallow-plane",
+      "radarClubHeadSpeedMps": 48.493199999999995,
+      "radarFaceAngleDeg": -1.4000000000000001
+    }
+  }
+]
